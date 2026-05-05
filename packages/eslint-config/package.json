@@ -1,0 +1,29 @@
+{
+  "name": "@voting-bloc/eslint-config",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./node": "./node.js",
+    "./react": "./react.js",
+    "./next": "./next.js",
+    "./react-native": "./react-native.js"
+  },
+  "scripts": {
+    "typecheck": "echo 'No types to check in eslint-config package'",
+    "lint": "echo 'No lint in eslint-config package'",
+    "build": "echo 'No build in eslint-config package'"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  }
+}

@@ -1,0 +1,10 @@
+.next/
+dist/
+out/
+build/
+node_modules/
+pnpm-lock.yaml
+*.tsbuildinfo
+packages/contracts/out/
+packages/contracts/cache/
+apps/mobile/.expo/

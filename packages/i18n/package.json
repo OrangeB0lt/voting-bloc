@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/i18n",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'i18n implemented in WU-52'",
+    "typecheck": "echo 'i18n implemented in WU-52'",
+    "lint": "echo 'i18n implemented in WU-52'"
+  }
+}

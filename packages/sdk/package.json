@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/sdk",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'sdk implemented in WU-09'",
+    "typecheck": "echo 'sdk implemented in WU-09'",
+    "lint": "echo 'sdk implemented in WU-09'"
+  }
+}

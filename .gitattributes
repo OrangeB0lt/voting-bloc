@@ -1,0 +1,20 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.wasm binary
+*.zkey binary
+*.ptau binary
+
+# Force LF for Solidity (forge fmt)
+*.sol text eol=lf
+
+# Diff settings
+*.sol diff=solidity
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript

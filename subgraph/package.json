@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/subgraph",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'Subgraph implemented in WU-19'",
+    "typecheck": "echo 'Subgraph implemented in WU-19'",
+    "lint": "echo 'Subgraph implemented in WU-19'"
+  }
+}

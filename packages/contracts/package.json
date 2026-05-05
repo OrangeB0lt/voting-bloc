@@ -1,0 +1,16 @@
+{
+  "name": "@voting-bloc/contracts",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "forge build",
+    "forge:build": "forge build",
+    "forge:test": "forge test --fuzz-runs 10000",
+    "forge:fmt": "forge fmt",
+    "forge:snapshot": "forge snapshot",
+    "lint": "forge fmt --check",
+    "typecheck": "echo 'No TS to check in contracts package'",
+    "clean": "forge clean"
+  }
+}

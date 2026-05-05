@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/pdf",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'pdf implemented in WU-47'",
+    "typecheck": "echo 'pdf implemented in WU-47'",
+    "lint": "echo 'pdf implemented in WU-47'"
+  }
+}

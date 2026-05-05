@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/identity-managed",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'identity-managed implemented in WU-46'",
+    "typecheck": "echo 'identity-managed implemented in WU-46'",
+    "lint": "echo 'identity-managed implemented in WU-46'"
+  }
+}

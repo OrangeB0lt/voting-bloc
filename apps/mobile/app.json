@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Voting Bloc",
+    "slug": "voting-bloc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.votingbloc.app"
+    },
+    "android": {
+      "package": "com.votingbloc.app"
+    },
+    "plugins": []
+  }
+}

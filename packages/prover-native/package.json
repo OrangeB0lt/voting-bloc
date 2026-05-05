@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/prover-native",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'prover-native implemented in WU-30'",
+    "typecheck": "echo 'prover-native implemented in WU-30'",
+    "lint": "echo 'prover-native implemented in WU-30'"
+  }
+}

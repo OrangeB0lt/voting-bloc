@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/ui",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'ui implemented in WU-21'",
+    "typecheck": "echo 'ui implemented in WU-21'",
+    "lint": "echo 'ui implemented in WU-21'"
+  }
+}

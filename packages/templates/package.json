@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/templates",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'templates implemented in WU-45'",
+    "typecheck": "echo 'templates implemented in WU-45'",
+    "lint": "echo 'templates implemented in WU-45'"
+  }
+}

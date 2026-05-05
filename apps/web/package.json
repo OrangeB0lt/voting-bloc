@@ -1,0 +1,29 @@
+{
+  "name": "@voting-bloc/web",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "typecheck": "tsc --noEmit",
+    "start": "next start",
+    "clean": "rm -rf .next out"
+  },
+  "dependencies": {
+    "@voting-bloc/types": "workspace:*",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@voting-bloc/eslint-config": "workspace:*",
+    "@voting-bloc/tsconfig": "workspace:*",
+    "eslint": "^9.0.0",
+    "typescript": "^5.4.0"
+  }
+}

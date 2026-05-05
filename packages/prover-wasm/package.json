@@ -1,0 +1,11 @@
+{
+  "name": "@voting-bloc/prover-wasm",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "echo 'prover-wasm implemented in WU-10'",
+    "typecheck": "echo 'prover-wasm implemented in WU-10'",
+    "lint": "echo 'prover-wasm implemented in WU-10'"
+  }
+}

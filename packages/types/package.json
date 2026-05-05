@@ -1,0 +1,27 @@
+{
+  "name": "@voting-bloc/types",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'Lint configured in WU-02'",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@voting-bloc/tsconfig": "workspace:*",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}

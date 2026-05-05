@@ -1,0 +1,56 @@
+# Node
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.expo/
+.turbo/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Foundry
+packages/contracts/out/
+packages/contracts/cache/
+
+# Circom / ZK
+packages/circuits/build/
+*.zkey
+*.ptau
+*.r1cs
+*.wasm
+!packages/circuits/test-fixtures/**/*.wasm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Testing
+coverage/
+lcov.info
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Docs generated
+docs/api-generated/
+
+# Local infra
+infra/local/.env
