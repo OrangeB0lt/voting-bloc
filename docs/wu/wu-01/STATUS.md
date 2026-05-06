@@ -82,3 +82,7 @@ All acceptance criteria met except CI (pending PR). Issues resolved during imple
 - Node engine range widened to `>=20.0.0` for dev machine with Node 24
 
 Next session picks up at: WU-02 (types package) and WU-03 (local dev infra), running in parallel after this PR merges.
+
+### 2026-05-05 UTC — WU-01 agent, resuming (PR + close-out)
+
+Resuming to complete the final steps: commit untracked CLAUDE.md, create orphan `main` branch on origin, push, open PR `[WU-01] Monorepo bootstrap`, write AS-BUILT.md, update PROJECT-STATUS.md.
