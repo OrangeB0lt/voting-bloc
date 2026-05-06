@@ -8,9 +8,9 @@
 
 ## TL;DR — pick up here
 
-WU-01 is complete. All acceptance criteria pass. The scaffold includes: Turborepo + pnpm workspace, tsconfig/eslint-config/types packages, apps/web (Next.js 15), apps/api (NestJS 10 + Fastify), apps/mobile (Expo stub), packages/contracts (Foundry with forge-std installed), 11 stub packages, CI workflow, and all docs. Ready to open PR.
+WU-01 is complete and **awaiting PR review**. Branch `wu-01-bootstrap` is pushed; `main` branch (orphan, single empty commit) is pushed to origin. AS-BUILT.md written, PROJECT-STATUS.md updated to `awaiting-review`. PR needs to be opened at github.com/OrangeB0lt/voting-bloc — requires `gh auth login` or opening via the GitHub web UI.
 
-WU-02 (types) and WU-03 (local dev infra) can now start in parallel on separate branches from `main` once this PR merges.
+WU-02 (types) and WU-03 (local dev infra) can start in parallel on separate branches from `main` once this PR merges.
 
 ## What's done
 
@@ -86,3 +86,9 @@ Next session picks up at: WU-02 (types package) and WU-03 (local dev infra), run
 ### 2026-05-05 UTC — WU-01 agent, resuming (PR + close-out)
 
 Resuming to complete the final steps: commit untracked CLAUDE.md, create orphan `main` branch on origin, push, open PR `[WU-01] Monorepo bootstrap`, write AS-BUILT.md, update PROJECT-STATUS.md.
+
+### 2026-05-05 UTC — WU-01 agent, closing (close-out session)
+
+Completed: CLAUDE.md committed, orphan `main` branch created and pushed to origin, `wu-01-bootstrap` updated and pushed (3 commits total). AS-BUILT.md written. PROJECT-STATUS.md updated to `awaiting-review`. PR open is the remaining action — blocked on `gh auth` (no stored GitHub token on this machine). Human can open PR at github.com/OrangeB0lt/voting-bloc/compare/wu-01-bootstrap or run `gh auth login` then re-run this session.
+
+Acceptance criteria: all 5 code criteria pass; CI criterion pending PR push (CI will trigger on PR open). WU-01 is fully implemented.
